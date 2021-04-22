@@ -1,0 +1,54 @@
+.kvadrat{
+    width:800px;
+    height:800px;
+    background-color: black;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.polje{
+    width:200px;
+    height:200px;
+    
+}
+
+
+.dugme{
+    background-color: black;
+    width:20vw;
+    height:5vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.dugme p{
+    color:white;
+    font-weight: bold;
+    font-size:2vw;
+
+}
+
+.kvadrat2{
+    width:800px;
+    height:800px;
+    background-color: black;
+
+    display:flex;
+    flex-wrap:wrap;
+    position:absolute;
+    top:8px;
+    left:290px;
+    z-index:5;
+    
+}
+
+.polje2{
+    width:200px;
+    height:200px;
+    
+}
+
